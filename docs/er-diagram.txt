@@ -1,0 +1,7 @@
+USERS 1 --- N ITEMS
+USERS 1 --- N CLAIMS
+ITEMS 1 --- N CLAIMS
+
+USERS(id PK, name, email, role, student_id)
+ITEMS(id PK, user_id FK, type, title, category, location, item_date, description, status)
+CLAIMS(id PK, item_id FK, claimant_id FK, message, status)

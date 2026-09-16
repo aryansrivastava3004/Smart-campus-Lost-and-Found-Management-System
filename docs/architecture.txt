@@ -1,0 +1,5 @@
+USER -> MAIN/CLI -> SERVICES -> JDBC -> H2 DATABASE
+                         |
+                         +-> MATCHING
+                         +-> CLAIMS
+                         +-> CSV EXPORT -> BACKUP THREAD

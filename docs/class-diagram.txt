@@ -1,0 +1,5 @@
+User <<abstract>> -> Student, Admin
+Item <<abstract>> -> LostItem, FoundItem
+Services: UserService, ItemService, MatchingService, ClaimService
+Utilities: InputValidator, CsvExporter, BackupService extends Thread
+Database: DatabaseManager
